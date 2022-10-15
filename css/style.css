@@ -16,6 +16,16 @@
     align-items: center;
 }
 
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
 /* Navigation Bar: Logo and Image */
 #logo{
     margin: 34px 45px;
@@ -28,15 +38,6 @@
 /* Navigatioin Bar: List Styling  */
 #navbar ul{
     display: flex;
-}
-#navbar::before{
-    content: "";
-    background-color: black;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.4;
 }
 
 #navbar ul li{
@@ -55,4 +56,21 @@
 #navbar ul li a:hover{
     color: black;
     background-color: white;
+}
+
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
