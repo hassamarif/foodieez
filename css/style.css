@@ -27,7 +27,6 @@
     height: 52%;
     width: 100%;
     z-index: -1;
-    /* opacity: 0.4; */
 }
 
 /* Navigation Bar: Logo and Image */
@@ -70,14 +69,13 @@
     height: 600px;
     margin-top: -20px;
     color: white;
-    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Bree Serif', serif;
 }
 .home-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 150px;
-    /* font-size: 1.5rem; */
 }
 #home::before{
     content:"";
@@ -124,9 +122,10 @@
 .h-primary{
     font-size: 3.8rem;
     padding: 12px;
+    font-family: 'Bree Serif', serif;
 }
-.h-secondary{
-    font-size: 2.8rem;
+.h-secondry{
+    font-size: 2rem;
     padding: 12px;
 }
 
@@ -134,7 +133,6 @@
     padding: 9px 17px;
     margin: 9px;
     font-size: 1.5rem;
-    /* background-color: white; */
     border: 2px solid white;
     border-radius: 37px;
     cursor: pointer;
