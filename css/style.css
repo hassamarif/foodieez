@@ -110,10 +110,9 @@
     display: block; 
 
 }
-#services{
 
-}
-#services{
+/* Client Section */
+#Client-section{
 
 }
 
@@ -121,7 +120,7 @@
 /* Utility Classes */
 .h-primary{
     font-size: 3.8rem;
-    padding: 12px;
+    padding: 10vh;
     font-family: 'Bree Serif', serif;
 }
 .h-secondry{
