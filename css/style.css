@@ -120,12 +120,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
 }
 
 #clients img{
     height: 68px;
-    border: 2px solid green;
 }
 
 /* Utility Classes */
