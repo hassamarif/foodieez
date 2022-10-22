@@ -113,8 +113,16 @@
 
 /* Client Section */
 #Client-section{
-
+    padding: 34px;
 }
+/* #Client-section::before{
+    content:"";
+    position: absolute;
+    background: url("../images/bg.jpg");
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+} */
 
 #clients{
     display: flex;
