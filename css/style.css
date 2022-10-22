@@ -115,7 +115,7 @@
 #Client-section{
     padding: 34px;
 }
-/* #Client-section::before{
+/* #Client-section::bedfore{
     content:"";
     position: absolute;
     background: url("../images/bg.jpg");
@@ -133,6 +133,18 @@
 #clients img{
     height: 68px;
 }
+
+
+/* contact section */
+#contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.603)), url("/images/bg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 1320px 300px;
+    color: white;
+}
+
+
+
 
 /* Utility Classes */
 .h-primary{
