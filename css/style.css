@@ -139,11 +139,15 @@
 #contact{
     background: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.603)), url("/images/bg.jpg") ;
     background-repeat: no-repeat;
-    background-size: 1320px 300px;
+    background-size: 1352px 300px;
     color: white;
 }
 
-
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
 
 
 /* Utility Classes */
