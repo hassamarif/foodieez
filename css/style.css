@@ -7,9 +7,9 @@
 }
 
 /* CSS Variable */
-:root{
+/* :root{
     --navbar-height: 59px;
-}
+} */
 
 /* Navigation Bar */
 #navbar{
@@ -139,8 +139,31 @@
 #contact{
     background: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.603)), url("/images/bg.jpg") ;
     background-repeat: no-repeat;
-    background-size: 1352px 300px;
+    background-size: 1352px 750px;
     color: white;
+}
+
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
 }
 
 footer{
