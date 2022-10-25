@@ -1,4 +1,17 @@
 /* Navigation  */
+#navbar{
+    flex-direction: column;
+    height: 500px;
+}
+
+#navbar ul{
+    /* flex-direction: column; */
+    margin-right: 350px;
+}
+
+#logo img{
+    margin-right: 250px;
+}
 
 /* Home section  */
 #home{
